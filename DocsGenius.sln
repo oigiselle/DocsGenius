@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocsGenius", "DocsGenius\DocsGenius.csproj", "{213DE409-3645-4BD9-9AB4-DD931A909E03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocsGenius", "DocsGenius\DocsGenius.csproj", "{213DE409-3645-4BD9-9AB4-DD931A909E03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocsGeniusTestProject", "DocsGeniusTestProject\DocsGeniusTestProject.csproj", "{DF067214-B59B-45A5-9FDE-17A845CBEC0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocsGeniusWebAPI", "DocsGeniusWebAPI\DocsGeniusWebAPI.csproj", "{076CEE6B-3D75-466E-981B-71384E890B71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{213DE409-3645-4BD9-9AB4-DD931A909E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{213DE409-3645-4BD9-9AB4-DD931A909E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{213DE409-3645-4BD9-9AB4-DD931A909E03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF067214-B59B-45A5-9FDE-17A845CBEC0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF067214-B59B-45A5-9FDE-17A845CBEC0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF067214-B59B-45A5-9FDE-17A845CBEC0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF067214-B59B-45A5-9FDE-17A845CBEC0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{076CEE6B-3D75-466E-981B-71384E890B71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{076CEE6B-3D75-466E-981B-71384E890B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{076CEE6B-3D75-466E-981B-71384E890B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{076CEE6B-3D75-466E-981B-71384E890B71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
