@@ -13,4 +13,9 @@
     <PackageReference Include="coverlet.collector" Version="3.1.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DocsGeniusWebAPI\DocsGeniusWebAPI.csproj" />
+    <ProjectReference Include="..\DocsGenius\DocsGenius.csproj" />
+  </ItemGroup>
+
 </Project>
