@@ -12,23 +12,23 @@ namespace DocsGeniusTestProject
         [TestMethod]
         public void CanAddDocTemplateWithLinkAndName()
         {
-            List<DocsTemplate> templates = new List<DocsTemplate>();
-            templates.Add(new DocsTemplate { Link = "www.hello.com", Name = "doc1" });
+           // List<DocsTemplate> templates = new List<DocsTemplate>();
+           // templates.Add(new DocsTemplate { Link = "www.hello.com", Name = "doc1" });
         }
 
         //adding register with required fields and description
         [TestMethod]
         public void CanAddDocTemplateWithLinkNameAndDescription()
         {
-            List<DocsTemplate> templates = new List<DocsTemplate>();
-            templates.Add(new DocsTemplate { Link = "www.hello.com", Name = "doc1", Description="it is a test"  });
+           // List<DocsTemplate> templates = new List<DocsTemplate>();
+           // templates.Add(new DocsTemplate { Link = "www.hello.com", Name = "doc1", Description="it is a test"  });
         }
 
         [TestMethod]
         public void CanAddDocTemplateWithLinkNameDescriptionAndID()
         {
-            List<DocsTemplate> templates = new List<DocsTemplate>();
-            templates.Add(new DocsTemplate {Id=11, Link = "www.hello.com", Name = "doc1", Description = "it is a test" });
+           // List<DocsTemplate> templates = new List<DocsTemplate>();
+           // templates.Add(new DocsTemplate {Id=11, Link = "www.hello.com", Name = "doc1", Description = "it is a test" });
         }
     }
 }

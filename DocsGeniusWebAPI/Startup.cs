@@ -35,12 +35,13 @@ namespace DocsGeniusWebAPI
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "DocsGeniusWebAPI", Version = "v1" });
             });
 
-            services.AddDbContext<DocsGeniusWebAPIContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("DocsGeniusWebAPIContext")));
+            services.AddDbContext<ApiDbContext>(option => option.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=DocsGeniusDb"));
+
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ApiDbContext dbContext)
         {
             if (env.IsDevelopment())
             {

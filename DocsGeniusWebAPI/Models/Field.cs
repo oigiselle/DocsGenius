@@ -1,12 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using DocsGenius.Models;
 
-namespace DocsGenius.Models
+namespace DocsGeniusWebAPI.Models
 {
     public class Field
     {
-        [Key]
+        [Required]
         public int Id { get; set; }
 
         [Required]
@@ -14,14 +14,12 @@ namespace DocsGenius.Models
 
         public string FieldContent { get; set; }
 
-        public  DateTime DataInserted { get; set; }
+        public int DocTemplateId { get; set; }
 
-        [Required]
-        public DocsTemplate DocsTemplate { get; set; }
+        public int DocType { get; set; }
 
-        public CreatedDoc CreatedDoc { get; set; }
+      
 
-
-
+        
     }
 }
