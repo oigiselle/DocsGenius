@@ -19,11 +19,17 @@ namespace DocsGeniusWebAPI.Controllers
 
 
         // GET: api/<DocsController>
- /*       [HttpGet]
-        public IEnumerable<DocTemplate> Get()
+        /*       [HttpGet]
+               public IEnumerable<DocTemplate> Get()
+               {
+                   return _dbContext.;
+               } */
+
+        [HttpGet()]
+        public string Get()
         {
-            return _dbContext.;
-        } */
+            return "value";
+        }
 
         // GET api/<DocsController>/5
         [HttpGet("{id}")]
